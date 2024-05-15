@@ -4,7 +4,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className=' w-full gap-2 py-7 px-20'>
+    <div className=' w-full gap-2 py-7 px-20 absolute'>
         <div className='w-full flex justify-between'>
             {/* logo */}
             <Link href="/" className='flex items-center gap-2'>
@@ -28,11 +28,13 @@ const Header = () => {
 
             {/* signup button */}
             <div className=' flex justify-center items-center py-4 px-7 bg-black-primary hover:bg-blue-primary rounded-xl'>
-                <p className='font-bold text-lg text-white'>Sign Up</p>
+                <p className='font-bold text-lg text-white-primary'>Sign Up</p>
             </div>
         </div>
     </div>
   )
 }
+
+
 
 export default Header

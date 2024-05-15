@@ -9,6 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        white: {
+          'primary': '#ffffff',
+          'off': '#f6f6f6'
+        },
         black: {
           'primary': '#1B2534',
         },
@@ -17,7 +21,7 @@ const config: Config = {
         },
       },
       backgroundImage: {
-        'hero': "url('/hero.svg')",
+        'hero': "url('/hero-banner.svg')",
       },
     },
   },
